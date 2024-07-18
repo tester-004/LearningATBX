@@ -9,6 +9,9 @@ public class Lab004 {
 
         System.out.println(age1);
 
+        //byte c = 128; // giving error because its take only -127 to 128 value, so we take int because its take more memory
+        int c = 128;
+        System.out.println(c);
 
     }
 }
